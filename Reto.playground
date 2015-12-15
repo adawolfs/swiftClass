@@ -1,0 +1,19 @@
+import UIKit
+
+for n in 0...100 {
+    
+    if n % 5 == 0 {
+        println("#\(n) Bingo!!")
+    }
+    
+    if n % 2 == 0 {
+        println("#\(n) par!!")
+    } else {
+        println("#\(n) impar!!")
+    }
+    
+    if n >= 30 && n <= 40 {
+        println("#\(n) Viva Swift!!")
+    }
+    
+}
